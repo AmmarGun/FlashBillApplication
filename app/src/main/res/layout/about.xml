@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btncalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="139dp"
+        android:text="Open Calculator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/pg1"
+        android:layout_width="153dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="About Page"
+        android:textColor="#3F51B5"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/text_developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers: AMMAR ZUHDI BIN ABD MAJID"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/GroupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group: RSC2405B"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/studNumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Number: 2022905771"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/programmeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programme Code: CS240"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/text_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autoLink="web"
+        android:minHeight="48dp"
+        android:text="Visit my website: www.example.com"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/copyrightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="© 2023 Flash Bill App. All rights reserved."
+            android:textAlignment="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
